@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario factura</title>
+    <link rel="stylesheet" href="Factura.css">
+</head>
+<body>
+    <h1>Factura de venta</h1>
+
+    <section id="formulario">
+        &nbsp;<label id="id_factura">Id factura</label><br>
+        &nbsp;<input style=" width: 210px" type="int" name="id_factura" class="espacio" ><br><br>
+        &nbsp;<label id="id_cliente">Id cliente</label><br>
+        &nbsp;<input style=" width: 210px" type="int" name="id_cliente" class="espacio" ><br><br>
+        &nbsp;<label id="numero_de_factura">Numero de factura</label><br>
+        &nbsp;<input style=" width: 210px" type="int" name="numero_de_factura" class="espacio" ><br><br>
+        &nbsp;<label id="fecha_factura">Fecha factura</label><br>
+        &nbsp;<input style=" width: 210px" type="datetime-local" name="fecha_factura" ><br><br>
+        &nbsp;<label id="id_factura_producto">Id factura producto</label><br>
+        &nbsp;<input style=" width: 210px" type="int" name="id_factura_producto" ><br><br>
+        
+        &nbsp;<input style=" width: 210px" type="text" name="nombre_completo_cliente" class="espacio" placeholder="Nombre cliente"><br><br>
+        &nbsp;<input style=" width: 210px" type="text" name="telefono_cliente" class="espacio" placeholder="Numero de telefono cliente"><br><br>
+        &nbsp;<input style=" width: 210px" type="text" name="identificacion_cliente" class="espacio" placeholder="Numero de identificacion cliente">
+        <br><br>
+        &nbsp;<input style=" width: 210px" type="text" name="direccion_cliente" class="espacio" placeholder="Direccion de cliente">
+        <br><br>
+        &nbsp;<input style=" width: 210px" type="email" name="correo"  class= "espacio"  placeholder="Correo electronico cliente"><br><br>
+        &nbsp;<input type="submit" value="Pagar">
+        &nbsp;<input type="submit" value="Imprimir">
+    </section>
+
+    
+</body>
+</html>
