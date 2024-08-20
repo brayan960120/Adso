@@ -1,0 +1,19 @@
+h1 {
+    
+    text-align: center;
+    border: 4px double rgb(214, 132, 9);
+    margin: auto;
+}
+.espacio{
+    color: rgb(214, 132, 9);
+}
+    
+   
+#formulario {
+    width: 600px;
+    margin: auto;
+    background-color: #3385a5;
+    padding: 30px;
+    display: row;
+    justify-content: center;
+}
