@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Usuario y productos</title>
-    <link rel="stylesheet" href="Crear_producto.css">
+    <link href="{{ url_for('static',filename='styles/Crear_producto.css') }}"  rel="stylesheet" type="text/css">
 </head>
 <body>
     <h1>Software de facturacion web</h1>
@@ -14,7 +14,10 @@
         </div>
         <nav>
             <ul class="nav-links">
-                <li><a href='/Inicio'>Inicio</a></li>
+                <li><a href='/Inicio_dos'>Inicio</a></li>
+                <li><a href='/Inhabilitar'>Inhabilitar producto</a></li>
+                <li><a href='/Editar'>Editar producto</a></li>
+
             
             
             </ul>            
@@ -45,10 +48,7 @@
                 &nbsp;<input style=" width: 240px" type="int" name="id_usuario" class="espacio" ><br><br>
                 &nbsp;<label id="id_categoria">Id factura producto</label><br>
                 &nbsp;<input style=" width: 240px" type="int" name="id_factura_producto" class="espacio" ><br><br>
-                &nbsp;<button>
-                    <span>Crear</span>
-                </button>
-            
+                &nbsp;<a href="/crear">Crear producto</a>
             </td>
 
             
